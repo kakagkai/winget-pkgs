@@ -1,0 +1,35 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.defaultLocale.1.10.0.schema.json
+
+PackageIdentifier: kakagkai.Beatloom
+PackageVersion: 1.1.0
+PackageLocale: en-US
+Publisher: kakagkai
+PublisherUrl: https://github.com/kakagkai
+PublisherSupportUrl: https://github.com/kakagkai/beatloom/issues
+Author: kakagkai
+PackageName: Beatloom
+PackageUrl: https://github.com/kakagkai/beatloom
+License: MIT
+LicenseUrl: https://github.com/kakagkai/beatloom/blob/main/LICENSE
+Copyright: Copyright (c) 2026 kakagkai
+ShortDescription: "A free music studio: step sequencer, piano roll, mixer and real recorded instruments."
+Description: |-
+  Beatloom is a free music studio in the spirit of the classic pattern-based DAWs. Program beats
+  in the step sequencer, write melodies in the piano roll, arrange patterns and audio in the
+  playlist and mix everything with effects. It comes with synths and over a thousand recorded
+  samples: grand piano, strings, brass, woodwinds and several drum kits. Works offline, supports
+  MIDI keyboards, and exports WAV, MP3 and MIDI. The interface is available in English,
+  Ukrainian and Russian.
+Moniker: beatloom
+Tags:
+- daw
+- music
+- music-production
+- sequencer
+- piano-roll
+- synthesizer
+- midi
+- beats
+ReleaseNotesUrl: https://github.com/kakagkai/beatloom/releases/tag/v1.1.0
+ManifestType: defaultLocale
+ManifestVersion: 1.10.0
