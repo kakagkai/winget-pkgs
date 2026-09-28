@@ -1,0 +1,19 @@
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.10.0.schema.json
+
+PackageIdentifier: kakagkai.Beatloom
+PackageVersion: 1.1.0
+InstallerType: nullsoft
+Scope: user
+UpgradeBehavior: install
+ProductCode: fb4fe6ad-77db-5dd6-8767-a2cc3fcffb4e
+ReleaseDate: 2026-09-28
+AppsAndFeaturesEntries:
+- DisplayName: Beatloom 1.1.0
+  Publisher: kakagkai
+  ProductCode: fb4fe6ad-77db-5dd6-8767-a2cc3fcffb4e
+Installers:
+- Architecture: x64
+  InstallerUrl: https://github.com/kakagkai/beatloom/releases/download/v1.1.0/Beatloom-1.1.0-win-setup.exe
+  InstallerSha256: 7200966778669563DD9270FAD0B447D6772FF3EB1FDA8CC45A9E01BBB64599B7
+ManifestType: installer
+ManifestVersion: 1.10.0
